@@ -3,6 +3,9 @@ import React from 'react';
 import './App.css';
 import {Hello} from "./components/hello"
 import Welcome from "./components/welcome"
+import Message from "./components/message"
+import Count from "./components/count"
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,12 @@ function App() {
 
         <Hello name="Chavan" training="java"/>
         <Welcome name ="Pratz"/>
+
+        <Message/>
+
+        <Count/>
+
+
 
 
 
