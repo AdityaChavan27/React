@@ -5,6 +5,9 @@ import {Hello} from "./components/hello"
 import Welcome from "./components/welcome"
 import Message from "./components/message"
 import Count from "./components/count"
+import Functionclick from "./components/functionclick"
+import Classclick from "./components/classclick"
+import Lifecycle from "./components/lifecycle"
 
 function App() {
   return (
@@ -27,9 +30,9 @@ function App() {
 
         <Count/>
 
-
-
-
+        <Functionclick/>
+        <Classclick/>
+        <Lifecycle favcolor='yellow'/>
 
     </div>
   );
